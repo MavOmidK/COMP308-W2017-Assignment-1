@@ -1,11 +1,26 @@
+<!-- views/pages/index.ejs -->
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <% include /partials/head %>
   </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <body class="container">
+
+    <header>
+      <% include /partials/header %>
+    </header>
+
+    <main>
+      <div class="jumbotron">
+        <h1>Hello World! [H1]</h1>
+        <p>Hello World! [p]</p>
+      </div>
+    </main>
+
+    <footer>
+      <% include partials/footer %>
+    </footer>
+
   </body>
 </html>
