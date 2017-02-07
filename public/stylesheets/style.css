@@ -35,7 +35,7 @@
 }
 
 .navbarMenu li:hover{
-  
+  /* Add small feature I guess */
 }
 
 .navbarMenu li a {
@@ -54,3 +54,6 @@
   height: 45px;
   width: 50px;
 }
+
+/* FOOTER.EJS */
+/* FOOTER */
