@@ -1,59 +1,13 @@
-/* HEAD.EJS */
-/* NAVBAR */
-
-.navbar{
-  width: 100%;
-  display: inline-block;
-  height: 50px;
-  background-color: grey;
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    background-color: #222;
+    border-color: #080808;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.navbarContainer{
-  width: 1078px;
-  height: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.footer div p{
+    margin-top: 20px;
 }
-
-.navbarPictureContainer{
-  float: left;
-  margin-left: 1%;
-}
-
-.navbarMenu{
-  float: right;
-  margin-right: 1%;
-  margin-top: 5px;
-}
-
-.navbarMenu li {
-  float: left;
-  height: 30px;
-  margin-left: 50px;
-  margin-top: 10px;
-}
-
-.navbarMenu li:hover{
-  /* Add small feature I guess */
-}
-
-.navbarMenu li a {
-  height: 100%;
-  float: left;
-  text-decoration: none;
-  color: white;
-  font-size: 22px;
-}
-
-.navbarMenu li a:hover{
-  color: black;
-}
-
-.navbarPicture{
-  height: 45px;
-  width: 50px;
-}
-
-/* FOOTER.EJS */
-/* FOOTER */
