@@ -1,5 +1,6 @@
 .footer {
     position: relative;
+    margin-top: 20px;
     bottom: 0;
     display: block;
     height: 50px;
@@ -17,20 +18,14 @@
     font-size: 45px;
 }
 
-/*.threes {
-    background-color: #222;
-    padding: 5px;
-    border-radius: 7px;
-    height: 250px;
-}*/
-
 .jumbotron{
     margin-top: 80px;
     background-color: #222
 }
 
 .panel-primary > .panel-heading {
-    background-color: #222
+    backgro
+und-color: #222
 }
 
 .myFace{
@@ -41,4 +36,26 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+}
+
+.welcome{
+    font-size: 40px;
+    color: white;
+    border-bottom:1px solid white;
+    padding-bottom:2px;
+    display: inline-block;
+}
+
+.underWelcome{
+    color: white;
+    font-size: 20px;
+}
+
+.image2{
+    margin-top: 20px;
+}
+
+.image3{
+    margin-top: 55px;
+    margin-left: -20px;
 }
