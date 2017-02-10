@@ -1,6 +1,7 @@
 .footer {
     position: relative;
     bottom: 0;
+    display: block;
     height: 50px;
     background-color: #222;
     border-color: #080808;
