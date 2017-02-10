@@ -1,13 +1,43 @@
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     height: 50px;
     background-color: #222;
     border-color: #080808;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
-.footer div p p {
+.footer div p {
     margin-top: 15px;
+}
+
+.jumbotron > p{ 
+    font-size: 45px;
+}
+
+/*.threes {
+    background-color: #222;
+    padding: 5px;
+    border-radius: 7px;
+    height: 250px;
+}*/
+
+.jumbotron{
+    margin-top: 80px;
+    background-color: #222
+}
+
+.panel-primary > .panel-heading {
+    background-color: #222
+}
+
+.myFace{
+    width: 300px;
+    height: 300px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
 }
