@@ -24,8 +24,7 @@
 }
 
 .panel-primary > .panel-heading {
-    backgro
-und-color: #222
+    background-color: #222
 }
 
 .myFace{
@@ -58,4 +57,14 @@ und-color: #222
 .image3{
     margin-top: 55px;
     margin-left: -20px;
+}
+
+.page-header > h1 {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.navbar-nav > li:hover{
+    color: white;
 }
