@@ -1,4 +1,4 @@
-<!-- views/pages/about.ejs -->
+<!-- views/pages/index.ejs -->
 
 <!DOCTYPE html>
 <html>
@@ -12,16 +12,71 @@
     </header>
 
     <main>
-
       <div class="jumbotron">
-        <h1>About</h1>
-        <p>Hello World!</p>
+        <p class="text-muted text-center">About Me</p>
+        <img class="myFace" src="images/MyFace.jpg">
       </div>
-      
+
+      <div class="row">
+
+        <div class="col-md-4">
+          
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p class="text-center">Small Biography</p>
+            </div>
+            <div class="panel-body">
+              <p>Hey! I'm Omid Khataee. I am an extremely happy individual
+              with a passion for creativity and Web Design (But not really). 
+              I go to Centennial College for Software Engineering Technology 
+              and I feel like I've learned a lot from here. I'm also an avid 
+              hockey fan and go deep into the whole analytical side of it.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p class="text-center">Hockey Teams</p>
+            </div>
+              <ul class="list-group">
+                <li class="list-group-item">Toronto Maple Leafs</li>
+                <li class="list-group-item">Washington Capitals</li>
+                <li class="list-group-item">Ottawa Senators</li>
+                <li class="list-group-item">Columbus Blue Jackets</li>
+              </ul>
+          </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p class="text-center">Courses</p>
+            </div>
+               <ul class="list-group">
+                <li class="list-group-item">Java EE</li>
+                <li class="list-group-item">Emerging Technologies</li>
+                <li class="list-group-item">IT Project Management</li>
+                <li class="list-group-item">Software Project</li>
+                <li class="list-group-item">System Integrations</li>
+              </ul>
+          </div>
+
+        </div>
+
+      </div>
     </main>
 
+    <footer>
+    <% include ./partials/footer %>
+    </footer>
+
   </body>
-      
-      <% include ./partials/footer %>
-    
+
 </html>
