@@ -68,3 +68,11 @@
 .navbar-nav > li:hover{
     color: white;
 }
+
+.btn{
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 100px;
+    width: 175px;
+}

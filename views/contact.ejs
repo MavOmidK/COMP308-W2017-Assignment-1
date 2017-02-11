@@ -13,9 +13,68 @@
 
     <main>
       <div class="jumbotron">
-        <h1>Contact</h1>
-        <p>Hello World!</p>
+        <p class="welcome">Contact</p>
       </div>
+
+      <form class="well">
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="form-group">
+            <p class="text-center">
+              <span class="glyphicon glyphicon-user"></span>
+              <label for="name">Name</label>      
+            </p>     
+              <input type="text" class="form-control" id="name" placeholder="What yo name" required="required">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+            <p class="text-center">
+              <span class="glyphicon glyphicon-envelope"></span>
+              <label for="email">Email</label>
+            </p>
+              <input type="text" class="form-control" id="email" placeholder="What yo email" required="required">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+            <p class="text-center">
+              <span class="glyphicon glyphicon-inbox"></span>
+              <label for="subject">Subject</label>
+            </p>
+              <input type="text" class="form-control" id="subject" placeholder="What yo subject" required="required">
+            </div>
+          </div>
+          
+        </div>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-md-8">
+            <div class="form-group">
+            <p class="text-center">
+              <span class="glyphicon glyphicon-edit"></span>
+              <label for="subject">Message</label>
+            </p>
+             <textarea name="message" id="message" class="form-control" rows="8" required="required" placeholder="Message" style="padding: 25px;"></textarea>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md">
+            <div class="form-group">
+            <p class="text-center">
+              <span class="glyphicon glyphicon-phone-alt"></span>
+              <label for="subject">Number</label>
+            </p>
+              <input type="text" class="form-control" id="subject" placeholder="What yo number" required="required">
+            </div>
+          </div>
+          <div class="col-md">
+            <button type="submit" class="btn btn-primary center-block text-uppercase">Send</button>
+           </div>
+          </div>
+        </div>
+      </form>
     </main>
 
   </body>
