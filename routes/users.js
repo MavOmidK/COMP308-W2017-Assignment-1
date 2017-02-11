@@ -1,3 +1,10 @@
+/*
+File: users.js
+Author: Omid Khataee
+Website: Assignment 1 - Express JS Server
+Description: 
+*/
+
 let express = require('express');
 let router = express.Router();
 

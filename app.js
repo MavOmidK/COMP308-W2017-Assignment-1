@@ -1,3 +1,10 @@
+/*
+File: app.js
+Author: Omid Khataee
+Website: Assignment 1 - Express JS Server
+Description: 
+*/
+
 let express = require('express');
 let path = require('path');
 let favicon = require('serve-favicon');
@@ -14,7 +21,7 @@ let app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-// uncomment after placing your favicon in /public
+// uncomment after placing your favicon in /public - DONT TELL ME WHAT TO DO EXPRESS GENERATOR.
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(bodyParser.json());

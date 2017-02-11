@@ -1,8 +1,13 @@
 #!/usr/bin/env node
 
 /**
- * Module dependencies.
- */
+ * /*
+File: www
+Author: Omid Khataee
+Website: Assignment 1 - Express JS Server
+Description: Module dependencies
+*/
+
 
 let app = require('../app');
 let debug = require('debug')('assignment1:server');
@@ -28,7 +33,7 @@ let server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
-
+ti
 /**
  * Normalize a port into a number, string, or false.
  */

@@ -1,3 +1,11 @@
+/*
+File: index.js
+Author: Omid Khataee
+Website: Assignment 1 - Express JS Server
+Description: Defines all my routes for the website
+*/
+
+
 let express = require('express');
 let router = express.Router();
 
