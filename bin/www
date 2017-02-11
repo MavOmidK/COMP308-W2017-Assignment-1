@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-/**
- * /*
+/*
 File: www
 Author: Omid Khataee
 Website: Assignment 1 - Express JS Server
@@ -21,7 +20,8 @@ let port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
- * Create HTTP server.
+ * Create HTTP server.git clone git://github.com/facebook/facebook-ios-sdk.git
+
  */
 
 let server = http.createServer(app);
@@ -33,7 +33,6 @@ let server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
-ti
 /**
  * Normalize a port into a number, string, or false.
  */
@@ -66,6 +65,7 @@ function onError(error) {
   let bind = typeof port === 'string'
     ? 'Pipe ' + port
     : 'Port ' + port;
+
 
   // handle specific listen errors with friendly messages
   switch (error.code) {
