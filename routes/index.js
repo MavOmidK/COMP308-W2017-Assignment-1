@@ -11,7 +11,7 @@ let router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Index' });
+  res.render('index', { title: 'Welcome' });
 });
 
 /* GET about page. */
@@ -26,7 +26,7 @@ router.get('/services', function(req, res, next) {
 
 /* GET products page. */
 router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Products' });
+  res.render('projects', { title: 'Projects' });
 });
 
 /* GET contact page. */
